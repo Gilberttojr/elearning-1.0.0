@@ -50,13 +50,19 @@
   .mobile {
     display: flex;
   }
+  .px-4 {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+  }
   .tlphonez {
     width: 100%;
     height: auto;
     padding: 10px;
     p {
-      font-size: 16px;
+      font-size: 20px;
       text-align: center;
+      display: flex;
+      flex-direction: column;
     }
   }
 }
